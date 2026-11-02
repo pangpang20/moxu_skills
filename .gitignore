@@ -1,0 +1,19 @@
+# 依赖
+node_modules/
+
+# 登录态（含 Cookie，绝对不要提交）
+.profile/
+**/.profile/
+
+# 运行缓存、同步报告、失败截图
+.cache/
+**/.cache/
+
+# 页面探测产物（截图 / DOM）
+.probe/
+**/.probe/
+
+# 系统杂项
+.DS_Store
+Thumbs.db
+*.log

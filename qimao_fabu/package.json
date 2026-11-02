@@ -1,0 +1,24 @@
+{
+  "name": "qimao_fabu",
+  "version": "1.0.0",
+  "description": "把墨序本地写作台的小说章节自动同步到七猫作者后台草稿箱（只存草稿，不自动发布）",
+  "private": true,
+  "scripts": {
+    "login": "node scripts/login.js",
+    "source": "node scripts/source.js",
+    "sync": "node scripts/sync.js",
+    "cleanup": "node scripts/cleanup.js",
+    "probe": "node scripts/probe.js"
+  },
+  "keywords": [
+    "moxu",
+    "qimao",
+    "七猫",
+    "墨序",
+    "playwright"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "playwright-core": "^1.64.1"
+  }
+}
